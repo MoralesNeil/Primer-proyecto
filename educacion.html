@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,user-scalable=no" />
+        <meta name="description" content="hoja de vida digital" />
+        <meta name="keywords" content="proyecto,desarrollo,certificacion,web,digital" />
+        <title>Mi Primer Proyecto Web</title>
+    </head>
+
+    <body>
+        <header>
+        
+            <svg>
+                <image xlink:href="images/logo.png" width="170px" height="155px"></image>
+            </svg>
+
+            <hgroup>
+            <h1>Hoja de Vida</h1>
+            <h2>Datos Personales</h2>
+            <h3>Nombres: Neil Byron</h3>
+            <h3>Apellidos: Morales Díaz</h3>
+            <h3>Fecha de Nacimiento: 29 de julio de 1981</h3>
+            <h3>Lugar de Nacimiento: Tegucigalpa, Honduras, C.A.</h3>
+            </hgroup>
+
+        </header>
+
+        <nav>
+            <a href="index.html">Inicio</a>   |   <a>Educación</a>    |   <a href="experiencia.html">Experiencia</a>
+        </nav>
+
+        <section>
+        
+            <h2>Educación</h2>
+       
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Lugar</th>
+                        <th>¿Culminó?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1987</td>
+                        <td>Escuela Dr. Modesto Rodas Alvarado</td>
+                        <td>Taulabé</td>
+                        <td>1992</td>
+                    </tr>
+                    <tr>
+                        <td>1993</td>
+                        <td>Instituto Técnico Liberación</td>
+                        <td>Taulabé</td>
+                        <td>1995</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <aside>
+
+            <h2>Agregar Estudios</h2>
+
+            <form name="Otros Estudios" autocomplete="on">
+
+                <p>
+                    <label for="year">Año:</label>
+                    <select>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="institution">Institución:</label>
+                    <input type="text" name="institution" required>
+                </p>
+                <p>
+                    <label for="place">Lugar:</label>
+                    <textarea name="place" rows="2" cols="25"></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="send" value="Enviar">
+                </p>
+            </form>
+
+        </aside>
+
+        <footer>
+            <p>
+                E-mail: nbmorales12@gmail.com
+            </p>
+
+            <p>
+                Teléfono: (504)9858-7609
+            </p>
+
+            <p>
+                Dirección: Taulabé, Honduras.
+            </p>
+        </footer>
+
+    </body>
+    
+</html>
